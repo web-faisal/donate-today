@@ -1,0 +1,113 @@
+/* Universal Start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+p{
+    font-size: 15px;
+    font-weight: normal;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5959;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.container{
+    width: 60%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.center-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Universal End */
+
+/* Header Start  */
+
+header{
+    background: url(images/donation1.jpg);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    color: #fff;
+}
+header p{
+    margin-bottom: 30px;
+    color: #c7c3c3;
+}
+/* Header End  */
+/* Donate Today Start */
+#donate_today{
+    margin-top: 80px;
+}
+.sm-box .box{
+    background-color: #c7c3c336;
+    color: #707070;
+    margin: 10px;
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#donate_today h1, p, .sm-box, #input{
+    margin-bottom: 30px;
+}
+#red-box{
+    color: #ff5959;
+    background-color: #fee;
+    border: 3px solid #ff5959;
+}
+#input{
+    border-bottom: 3px solid #c7c3c336;
+}
+#donate_input{
+    border: none;
+    padding: 10px 300px;
+}
+#donate_input::placeholder{
+    font-size: 16px;
+}
+#donate_input:focus {
+    outline: none;
+  }
+/* Donate Today End  */
+/* Our Donate Plan Start */
+#plan{
+    margin-top: 80px;
+}
+#plan h1, p{
+    margin-bottom: 30px;
+}
+.plan-box .box{
+    margin: 10px;
+    border-radius: 7px;
+    padding: 40px;
+}
+.plan-box .box-1{
+    background-color: rgba(79, 157, 166, 0.10);
+}
+.plan-box .box-2{
+    background-color: rgba(255, 89, 89, 0.10);
+}
+.plan-box .box-3{
+    background-color: #fff4d6;
+}
+/* Our Donate Plan End */
