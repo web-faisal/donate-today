@@ -6,9 +6,14 @@
     font-family: 'Inter', sans-serif;
     color: #000;
 }
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
 p{
     font-size: 15px;
     font-weight: normal;
+    color: dimgray;
 }
 .btn{
     text-decoration: none;
@@ -91,7 +96,10 @@ header p{
 /* Donate Today End  */
 /* Our Donate Plan Start */
 #plan{
-    margin-top: 80px;
+    margin: 80px 80px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
 }
 #plan h1, p{
     margin-bottom: 30px;
@@ -99,7 +107,10 @@ header p{
 .plan-box .box{
     margin: 10px;
     border-radius: 7px;
-    padding: 40px;
+    padding: 50px;
+}
+.plan-box .box h5{
+    margin: 10px;
 }
 .plan-box .box-1{
     background-color: rgba(79, 157, 166, 0.10);
@@ -110,4 +121,56 @@ header p{
 .plan-box .box-3{
     background-color: #fff4d6;
 }
+.center-text{
+    margin: 0px 200px;
+
+}
 /* Our Donate Plan End */
+/* Home Less Area Stat */
+.half-width{
+    width: 45%;
+    padding: 0 5%;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 7px;
+}
+/* Home Less Area End */
+/* Give Area Start */
+.give-area{
+    margin-top: 80px;
+}
+/* Give Area End */
+/* Update Area Start */
+#update{
+    text-align: center;
+    margin-top: 100px;
+}
+#email{
+    padding: 70px 150px;
+    background: #fff4d6;
+}
+#email_input{
+    border: none;
+    padding: 20px 40px;
+}
+#email_input:focus {
+    outline: none;
+  }
+/* Update Area End  */
+/* Footer Start */
+footer{
+    background-color: #000;
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px 0;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    color: #ff5959;
+    font-size: 36px;
+}
+footer small{
+    color: dimgray;
+}
+/* Footer End */
